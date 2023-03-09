@@ -1,3 +1,7 @@
+* {
+  /* border: none !important; */
+}
+
 .root-container {
   width: 100vw;
   height: 100vh;
@@ -64,10 +68,17 @@
   width: 90%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.question-card {
+/* .question-card {
   margin: 0 40% 0 40%;
+} */
+
+.question-changer {
+  width: auto;
+  border: 2px solid #a31818;
 }
 
 .questions {

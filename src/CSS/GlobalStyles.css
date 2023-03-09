@@ -27,6 +27,31 @@
   width: 100px;
 }
 
+.profile-image-ex-small {
+  border: none;
+  width: 60px;
+}
+
 .box {
   border: 1px solid yellow;
 }
+
+.button {
+  position: relative;
+  background-color: rgb(104, 38, 38);
+  color: #fff;
+  padding: 0.4em;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button:hover {
+  background-color: rgb(90, 89, 89);
+  color: rgb(255, 255, 255);
+}
+
+.button:active {
+  background-color: rgb(49, 49, 49);
+  color: rgb(255, 255, 255);
+}
+
