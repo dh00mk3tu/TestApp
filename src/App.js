@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './CSS/App.css';
+import './CSS/GlobalStyles.css';
+
+import ThumbsUp from './Assets/ThumbsUp.gif';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="root-container">
+      <div className="root-sub-container ">  
+        <div className="answer-side-panel margin-all-1em box-shadow-solid">
+          <div className="answer-side-panel header">
+            <img src={ThumbsUp} className="profile-image-small" alt="thumbsup"></img>
+            <p>Review Answers Here:</p>
+
+          </div>
+
+          <div className="answer-side-panel body">
+            <div className="answer-1 padding-all-1em"> anirudh </div>
+            <div className="answer-1 padding-all-1em"> anirudh </div>
+            <div className="answer-1 padding-all-1em"> anirudh </div>
+            <div className="answer-1 padding-all-1em"> anirudh </div>
+          </div>
+        </div>
+        <div className="question-card-panel margin-all-1em box-shadow-solid">
+          <div className="header padding-top-3em">
+            image
+          </div>
+          <div className="question-slider">
+            <div className="prev-question box">prev</div>
+            <div className="question-card box">Attempt Questions Here</div>
+            <div className="next-question box">next</div>
+          </div>
+          <div className="questions ">
+            Question: What is the best soup?
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

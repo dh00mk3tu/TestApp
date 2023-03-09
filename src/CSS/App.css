@@ -1,0 +1,76 @@
+.root-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.root-container > .root-sub-container {
+  height: 80%;
+  width: 80%;
+  border: 4px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 1em;
+}
+
+.root-sub-container > .answer-side-panel{
+  border: 1px solid black;
+  height: 80%;
+  width: 20%;
+  /* display settings */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.root-sub-container > .question-card-panel{
+  border: 1px solid black;
+  height: 80%;
+  /* Not specifying width. will control this container using side panel only */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.header {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.body {
+  border: 1px solid orange;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question-slider {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.question-card {
+  margin: 0 40% 0 40%;
+}
+
+.questions {
+  font-weight: 800;
+  margin-top: 3em;
+}

@@ -1,0 +1,32 @@
+/* global styles */
+.padding-all-1em {
+  padding: 1em;
+}
+
+.padding-top-3em {
+  padding-top: 3em;
+}
+.margin-all-1em {
+  margin-inline: 1em;
+}
+
+.box-shadow-solid {
+  box-shadow: 5px 5px #aaaaaa;
+}
+
+.box-shadow-blur {
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.width-auto{
+  width: auto;
+}
+
+.profile-image-small {
+  border: none;
+  width: 100px;
+}
+
+.box {
+  border: 1px solid yellow;
+}
