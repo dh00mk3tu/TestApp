@@ -14,7 +14,7 @@
 .root-container > .root-sub-container {
   height: 80%;
   width: 80%;
-  border: 4px solid blue;
+  /* border: 4px solid blue; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -47,7 +47,7 @@
 
 
 .header {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,7 @@
 }
 
 .body {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -78,10 +78,29 @@
 
 .question-changer {
   width: auto;
-  border: 2px solid #a31818;
+  /* border: 2px solid #a31818; */
 }
 
 .questions {
   font-weight: 800;
   margin-top: 3em;
+}
+
+
+.OptionsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.OptionsBox-Inside {
+  padding: 0.5em;
+}
+
+.answer  {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em; 
 }
